@@ -18,7 +18,7 @@ apt update -y && apt install git -y && git clone https://github.com/irabbirezaul
 Edit mine.sh with nano and add your wallet's address and your worker ID.
 
 ```console
-nano mine1.sh
+nano mine.sh
 ```
 
 # Launch Miner
