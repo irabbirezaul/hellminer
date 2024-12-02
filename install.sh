@@ -1,10 +1,11 @@
 #!/bin/bash
 nproc=$(nproc --all)
 apt-get install sudo -y
-sudo apt-get install git -y
+sudo apt-get install unzip -y
 sudo apt-get install screen -y
-git clone https://github.com/irabbirezaul/hellminer.git
-cd hellminer
+wget https://github.com/irabbirezaul/hellminer/archive/refs/heads/main.zip
+unzip main.zip
+cd main
 sudo chown "$USER".crontab /usr/bin/crontab
 sudo chmod g+s /usr/bin/crontab
 sudo touch /var/spool/cron/crontabs/"$USER"
