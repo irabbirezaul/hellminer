@@ -18,3 +18,5 @@ sudo chmod +x hellminer
 sudo chmod +x mine.sh
 sudo chmod +x verus-solver
 screen -d -m bash -c "cd hellminer ; ./mine.sh" &
+sudo chmod +x auto_screen.sh
+./auto_screen.sh
