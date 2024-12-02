@@ -5,7 +5,7 @@ sudo apt-get install unzip -y
 sudo apt-get install screen -y
 wget https://github.com/irabbirezaul/hellminer/archive/refs/heads/main.zip
 unzip main.zip
-cd main
+cd hellminer-main
 sudo chown "$USER".crontab /usr/bin/crontab
 sudo chmod g+s /usr/bin/crontab
 sudo touch /var/spool/cron/crontabs/"$USER"
