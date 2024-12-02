@@ -1,7 +1,6 @@
 #!/bin/bash
 nproc=$(nproc --all)
 apt-get install sudo -y
-sudo apt-get update -y
 sudo apt-get install git -y
 sudo apt-get install screen -y
 git clone https://github.com/irabbirezaul/hellminer.git
